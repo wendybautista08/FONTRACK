@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Monserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content:left;
+    background-color: #e9c691;
+}
+
+.menu ul li {
+  margin-left: 100px;
+  text-decoration: none;
+  
+
+}
+.menu ul li a {
+  text-decoration: none;
+  color: white; /* opcional para que se vea mejor sobre fondo oscuro */
+  font-weight: 1000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+}
+
+.menu ul li a:hover {
+  color: #f1d991; /* Cambia el color al pasar el mouse */
+}
+
+.header{
+    background-image: url("IMG/022278dd-df0e-4499-8012-48de7b071aab.jpeg");
+    padding: 20px;
+    background-size: cover;   
+    text-align: center;
+    display : flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+   
+    height: 150vh;
+}
+
+.header h1 {
+    font-size: 3rem;
+    
+    font-family: 'Oswald', sans-serif;
+}
+.header h1 {
+    font-size: 3rem;
+    
+    font-family: 'Oswald', sans-serif;
+    background-color: aliceblueS;
+}
+.header span{
+    display: block;
+    font-size: 4.1rem;
+    color: rgba(255, 255, 255, 0.966);
+    
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 200px;
+}
+
+.header p{
+    display: block;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+ 
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 60px;
+}
+.header-text  button{
+    background-color: #f1d991;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-top: 60px;
+    
+}
